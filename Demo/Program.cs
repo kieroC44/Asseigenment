@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using System;
+
+namespace Demo
 {
     internal class Program
     {
@@ -112,9 +114,53 @@
 
             #endregion
 
-          
+            #region Switch C# 7.0 [Pattern matching - When keyword]
+            #region Pattern matching
+            ////[Object , integer , double]
+            //object obj;
+            ////allocate 4 bytes in stack
+            //obj = 10; //Boxing
+            //switch (obj)
+            //{
+            //    case int X when X < 10 && X >= 5: //Unboxing
+            //        Console.WriteLine("Integer");
+            //        break;
+            //    case float X:
+            //        Console.WriteLine("Float");
+            //        break;
+            //    case double X:
+            //        Console.WriteLine("Double");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Unknown datatype");
+            //        break;
+            //}
+
+            #endregion
 
 
+
+            #region User defined data type
+            ////[Person]
+            Object obj = new person() { Id = 1, Name = "Mariam", Age = 20 };
+            switch (obj)
+            {
+                case int input:
+                    Console.WriteLine("Integer value");
+                    break;
+                case float input:
+                    Console.WriteLine("Float value");
+                    break;
+                case person input when input.Name == "Mariam":
+                    Console.WriteLine("Person value");
+                    break;
+                default:
+                    Console.WriteLine("Unknown data type");
+                    break;
+
+            }
+                #endregion
+                #endregion
 
 
 
