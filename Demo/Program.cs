@@ -444,11 +444,59 @@ namespace Demo
             #endregion
 
 
+            #region String
+            //Is a Built in Class [Reference Data Type] and represente
+            //They are immutable [once a string object is created, its
+            //Any operation that modifies a string actually creates a
+            //Internally is represented as an array of characters.
+            //Each character in the string corresponds to a single cha
+
+            #region Examples
+            //string name = new string("Mariam");
+            //String name2 = "Mariam";
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+            //name2 = "Omar";
+            //Console.WriteLine(" *****************");
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+            //Console.WriteLine();
+            //Console.WriteLine(name2);
+            //Console.WriteLine(name2.GetHashCode());
+
+            //string name = "Hello";
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+            //name += " Mariam";
+            //Console.WriteLine();
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode());
+
+            //name = "Mariam";//Synatx sugar
+            #endregion
+
+            #region String methods
+            #region String methods
+            //string name = "           Hello kiero            ";
+            //Static method == > Class member method == > Class
+            //Non-Static method == > Object member method == > instance
+
+            //Console.WriteLine(name.Length); //6[property]
+            //Console.WriteLine(name. ToUpper());
+            //Console.WriteLine(name. ToLower());
+            //Console.WriteLine(name.Replace("hello","Hey"));
+            //Console.WriteLine(name. Replace('M', 'H')) ;
+            //Console.WriteLine(name.Remove(0, 5));
+            //Console.WriteLine(name.Trim());
 
 
 
-
-
+            #endregion
+            #endregion
+            #endregion
 
 
 
