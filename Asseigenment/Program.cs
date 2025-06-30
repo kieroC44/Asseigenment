@@ -557,7 +557,26 @@
             #endregion
 
             #region Write a Program to Print One Dimensional Array in Reverse Order
+            //Console.Write("Enter number of elements: ");
+            //int n = int.Parse(Console.ReadLine());
 
+            //int[] arr = new int[n];
+
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write($"Enter element {i + 1}: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+
+            //Console.WriteLine("Reversed array:");
+            //for (int i = n - 1; i >= 0; i--)
+            //{
+            //    Console.Write(arr[i] + " ");
+            //}
+
+            //Console.WriteLine();
             #endregion
 
             #region Write a program that uses the ternary operator to check if the temperature is too hot, too cold, or just good. Assign the result in a variable then display the result. Assume that below 10 degrees is "Just Cold", above 30 degrees is "Just Hot", and anything else is "Just Good".
