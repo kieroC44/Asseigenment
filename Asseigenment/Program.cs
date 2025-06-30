@@ -271,6 +271,26 @@
             #endregion
 
             #region Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
+            //Console.WriteLine("Enter x1 :");
+            //int x1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter y1 :");
+            //int y1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter x2 :");
+            //int x2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter y2 :");
+            //int y2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter x3 :");
+            //int x3 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter y3 :");
+            //int y3 = int.Parse(Console.ReadLine());
+            //if ((y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1))
+            //{
+            //    Console.WriteLine("On the same line");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Not on the same line");
+            //}
 
             #endregion
 
