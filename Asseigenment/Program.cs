@@ -385,6 +385,39 @@
             #endregion
 
             #region Write a program in C# Sharp to count the frequency of each element of an array.
+            //Console.Write("Enter number of elements: ");
+            //int n = int.Parse(Console.ReadLine());
+
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write($"Enter element {i + 1}: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("\nFrequencies:");
+
+            //bool[] visited = new bool[n];
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    if (visited[i])
+            //        continue;
+
+            //    int count = 1;
+
+            //    for (int j = i + 1; j < n; j++)
+            //    {
+            //        if (arr[i] == arr[j])
+            //        {
+            //            count++;
+            //            visited[j] = true;
+            //        }
+            //    }
+
+            //    Console.WriteLine($"{arr[i]} occurs {count}");
+            //}
 
             #endregion
 
