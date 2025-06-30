@@ -518,7 +518,25 @@
             #endregion
 
             #region Given a list of space separated words, reverse the order of the words.
+            //Console.Write("Enter number of words: ");
+            //int n = int.Parse(Console.ReadLine());
 
+            //string[] words = new string[n];
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write($"Enter word {i + 1}: ");
+            //    words[i] = Console.ReadLine();
+            //}
+
+            //Console.WriteLine("Reversed sentence:");
+            //for (int i = n - 1; i >= 0; i--)
+            //{
+            //    Console.Write(words[i]);
+            //    if (i > 0)
+            //        Console.Write(" ");
+            //}
+            //Console.WriteLine();
             #endregion
 
             #region  Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array
