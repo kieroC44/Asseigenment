@@ -115,6 +115,10 @@
             #endregion
 
             #region Write a program that allows to user to insert number then print all even numbers between 1 to this number
+            //Console.WriteLine("Please Enter a Number:");
+            //int n = int.Parse(Console.ReadLine());
+            //for (int i = 2; i <= n; i += 2)
+            //    Console.Write(i + " ");
 
             #endregion
 
