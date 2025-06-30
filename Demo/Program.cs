@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 
 namespace Demo
 {
@@ -187,25 +188,25 @@ namespace Demo
 
             #region Switch case before pattern matching
             ////1 => Msg = Option 1
-            int number;
-            string result;
-            Console.WriteLine("Please enter the number [1,2,3]");
-            int.TryParse(Console.ReadLine(), out number);
-            switch (number)
-            {
-                case 1:
-                    result = "Option 1";
-                    break;
-                case 2:
-                    result = "Option 2";
-                    break;
-                case 3:
-                    result = "Option 3";
-                    break;
-                default:
-                    result = "Unknown option";
-                    break;
-            }
+            //int number;
+            //string result;
+            //Console.WriteLine("Please enter the number [1,2,3]");
+            //int.TryParse(Console.ReadLine(), out number);
+            //switch (number)
+            //{
+            //    case 1:
+            //        result = "Option 1";
+            //        break;
+            //    case 2:
+            //        result = "Option 2";
+            //        break;
+            //    case 3:
+            //        result = "Option 3";
+            //        break;
+            //    default:
+            //        result = "Unknown option";
+            //        break;
+            //}
             #endregion
 
             #region Switch expression [Constant pattern - discard pattern]
@@ -261,10 +262,49 @@ namespace Demo
 
             #endregion
 
+
+            #endregion
+
+
+            #region Switch C# 9.0 [Relational pattern - logical pattern - enhanced proper
+
+            #region Relational Pattern
+            // num < 10 , between 10 and 20 , > 20
+            //Console.WriteLine("Please enter a number");
+            //int.TryParse(Console.ReadLine(), out int number);
+            //string result = number switch
+            //{
+
+            //    < 10 => "Number < 10",
+            //    > 20 => "Number > 20",
+            //    >= 10 and <= 20 => "Number between 10 , 20",
+            //};
+            //    Console.WriteLine(result);
+
+            #endregion
+
+            #region Enhanced property pattern
+            //////Person is samy & age > 10
+            //////Person is omar & age between 20 and 30
+            //////Person's age is between 40 and 50
+            //////Else == > Unknown
+            //person person = new person() { Id = 1, Name = "samy", Age = 20 };
+            //string result = person switch
+            //{
+            //    { Name: "samy", Age: > 10 } => "Hello Samy",
+            //    { Name: "omar", Age: >= 20 and <= 30 } => "Hello Omar",
+            //    { Age: >= 40 and <= 50 } => "Age between 40 and 50",
+            //        _=> "Unknown person"
+            //};
+            //Console.WriteLine(result);
             #endregion
 
 
 
+
+
+
+            #endregion
 
 
 
