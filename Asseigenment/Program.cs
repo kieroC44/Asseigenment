@@ -207,18 +207,18 @@
 
             //if (input.StartsWith("-"))
             //{
-               
+
             //    for (int i = input.Length - 1; i >= 1; i--)
             //    {
             //        reversedStr += input[i];
             //    }
 
-          
+
             //    reversedStr = "-" + reversedStr;
             //}
             //else
             //{
-         
+
             //    for (int i = input.Length - 1; i >= 0; i--)
             //    {
             //        reversedStr += input[i];
@@ -230,6 +230,30 @@
             #endregion
 
             #region  Write a program in C# Sharp to find prime numbers within a range of numbers.
+            //Console.WriteLine("Enter the start and end of the range:");
+            //int start = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter the end of the range:");
+            //int end = int.Parse(Console.ReadLine());
+
+            //for (int i = start; i <= end; i++)
+            //{
+            //    int count = 0;
+
+            //    if (i > 1)
+            //    {
+            //        for (int j = 2; j * j <= i; j++)
+            //        {
+            //            if (i % j == 0)
+            //            {
+            //                count++;
+            //                break;
+            //            }
+            //        }
+
+            //        if (count == 0)
+            //            Console.Write(i + " ");
+            //    }
+            //}
 
             #endregion
 
