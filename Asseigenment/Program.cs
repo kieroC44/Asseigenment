@@ -66,21 +66,20 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
             #endregion
 
             #region  Write a program that allows the user to insert an integer number then check If a number is even or odd.
+            //Console.WriteLine("Please Enter a Number:");
+            //int num = int.Parse(Console.ReadLine());
+            //if (num % 2 == 0)
+            //{
+            //    Console.WriteLine("The Number Is Even");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The Number Is Odd");
 
+            //}
             #endregion
 
             #region Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u) then print (vowel) otherwise print (consonant).
