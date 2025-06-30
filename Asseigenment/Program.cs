@@ -200,7 +200,33 @@
             #endregion
 
             #region  Write a program to allow the user to enter int and print the REVERSED of it.
+            //Console.Write("Enter a number: ");
+            //string input = Console.ReadLine();
 
+            //string reversedStr = "";
+
+            //if (input.StartsWith("-"))
+            //{
+               
+            //    for (int i = input.Length - 1; i >= 1; i--)
+            //    {
+            //        reversedStr += input[i];
+            //    }
+
+          
+            //    reversedStr = "-" + reversedStr;
+            //}
+            //else
+            //{
+         
+            //    for (int i = input.Length - 1; i >= 0; i--)
+            //    {
+            //        reversedStr += input[i];
+            //    }
+            //}
+
+            //int reversed = int.Parse(reversedStr);
+            //Console.WriteLine("Reversed = " + reversed);
             #endregion
 
             #region  Write a program in C# Sharp to find prime numbers within a range of numbers.
