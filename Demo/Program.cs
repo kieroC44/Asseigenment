@@ -307,8 +307,80 @@ namespace Demo
             #endregion
 
 
+            #region Looping statemtns [for - foreach]
+
+            #region Intro
+            //Console.WriteLine(0);
+            //Console.WriteLine(1);
+            //Console.WriteLine(2);
+            //Console.WriteLine(3);
+            //Console.WriteLine(4);
+            //Console.WriteLine(5);
+            //Console.WriteLine(6);
+            //Console.WriteLine(7);
+            //Console.WriteLine(8);
+            //Console.WriteLine(9);
+            //Console.WriteLine(10);
+            //}
+
+            //for (int i = 1; i < 10; i++)
+            //{ 
+            //Console.WriteLine(i);
+            //}
+            //for (int i = 100; i >= 1; i -- )
+            //{ 
+            //Console.WriteLine(i);
+            //}
+
+            //int[] numbers = { 1, 2, 3, 4, 5 , 6 , 7 , 8 , 9 , 10 };
+            // 0 ,1, 2, 3, 4
+            // size / length => 5I
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    numbers += 10; 
+            //    Console.WriteLine(numbers[i]);
+            //}
 
 
+            //foreach (int number in numbers)
+            //{
+            //    //number += 10;
+            //    //Console.WriteLine(numbers[i]);
+            //    //Console.WriteLine(number);
+            //}
+
+
+
+
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[1]);
+            //Console.WriteLine(numbers[2]);
+            //Console.WriteLine(numbers[3]);
+            //Console.WriteLine(numbers[4]);
+            //Console.WriteLine(numbers[5]);
+
+
+
+
+
+
+
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+            #endregion
 
 
 
