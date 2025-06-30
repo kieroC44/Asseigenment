@@ -142,25 +142,126 @@ namespace Demo
 
             #region User defined data type
             ////[Person]
-            Object obj = new person() { Id = 1, Name = "Mariam", Age = 20 };
-            switch (obj)
+            //Object obj = new person() { Id = 1, Name = "Mariam", Age = 20 };
+            //switch (obj)
+            //{
+            //    case int input:
+            //        Console.WriteLine("Integer value");
+            //        break;
+            //    case float input:
+            //        Console.WriteLine("Float value");
+            //        break;
+            //    case person input when input.Name == "Mariam":
+            //        Console.WriteLine("Person value");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Unknown data type");
+            //        break;
+
+            //}
+            #endregion
+            #endregion
+
+            #region Switch C# 8.0 [Pattern matching without alias - switch exprtession]
+
+            #region Pattern matching without alias
+            ////[Object , integer , double]
+            //object obj = 10;
+            //switch (obj)
+            //{
+            //    case int when (int)obj <= 10:
+            //        Console.WriteLine("Integer");
+            //        break;
+            //    case float:
+            //        Console.WriteLine("Float");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Unknown data type");
+            //        break;
+
+
+            //}
+
+
+            #endregion
+
+            #region Switch case before pattern matching
+            ////1 => Msg = Option 1
+            int number;
+            string result;
+            Console.WriteLine("Please enter the number [1,2,3]");
+            int.TryParse(Console.ReadLine(), out number);
+            switch (number)
             {
-                case int input:
-                    Console.WriteLine("Integer value");
+                case 1:
+                    result = "Option 1";
                     break;
-                case float input:
-                    Console.WriteLine("Float value");
+                case 2:
+                    result = "Option 2";
                     break;
-                case person input when input.Name == "Mariam":
-                    Console.WriteLine("Person value");
+                case 3:
+                    result = "Option 3";
                     break;
                 default:
-                    Console.WriteLine("Unknown data type");
+                    result = "Unknown option";
                     break;
-
             }
-                #endregion
-                #endregion
+            #endregion
+
+            #region Switch expression [Constant pattern - discard pattern]
+            // msg = option 1
+
+            //int number;
+            //Console.WriteLine("Please enter a number");
+            //int.TryParse(Console.ReadLine(), out number);
+            //string result = number switch
+            //{ 
+            //1 => "Option 1", //Constant pattern
+            //2 => "Option 2",
+            //3 => "Option 3",
+            //  => "Unknown option" //Discard pattern
+            //};
+            //Console.WriteLine(result);
+            #endregion
+
+            #region Property Pattern
+            ////[Person]
+            //person person = new person() { Id = 10, Name = "Mariam", Age = 20 };
+            //string resuit = person switch
+            //{
+            //    { Age: 30 } => "Age = 30",
+            //    { Id: 10, Name: "Mariam", Age: 20 } => "Hello mariam",
+            //    { Id: 10 } => "Hello Mariam with id 10", //Property pattern
+            //    { Id: 300 } => "Id is 300",
+            //     _=> "Hello Person"
+            //};
+            //   Console.WriteLine(result);
+            #endregion
+
+            #region Nullable type - relational pattern
+            // int?
+            //int? X = null;
+            //int? number = 100;
+            //string result = number switch
+            //{
+            //    null => "Null",
+            //    int X when X > 0 => "Positive number",
+            //    int Y when Y< 0 => "Negative number",
+            //       _ => "Zero"
+            // };
+            //Console.WriteLine(result);
+
+
+
+
+
+
+
+
+
+            #endregion
+
+            #endregion
 
 
 
@@ -190,11 +291,6 @@ namespace Demo
 
 
 
-
-
-
-
-
-            }
+        }
     }
 }
