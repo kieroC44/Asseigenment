@@ -153,6 +153,10 @@
             #endregion
 
             #region Write a program to input the month number and print the number of days in that month.
+            //Console.WriteLine("Enter Month Number (1-12):");
+            //int month = int.Parse(Console.ReadLine());
+            //int days = DateTime.DaysInMonth(2024, month); 
+            //Console.WriteLine("Days = " + days);
 
             #endregion
 
