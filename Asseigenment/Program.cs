@@ -137,7 +137,19 @@
             #endregion
 
             #region Write a program to enter marks of five subjects and calculate total, average and percentage.
-
+            //int[] marks = new int[5];
+            //int total = 0;
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.Write($"Enter mark {i+1}: ");
+            //    marks[i] = int.Parse(Console.ReadLine()); 
+            //    total += marks[i];
+            //}
+            //double average = total / 5.0;
+            //double percentage = (total / 500.0) * 100;
+            //Console.WriteLine("Total Marks     = " + total);
+            //Console.WriteLine("Average Marks   = " + average);
+            //Console.WriteLine("Percentage      = " + percentage + "%");
             #endregion
 
             #region Write a program to input the month number and print the number of days in that month.
