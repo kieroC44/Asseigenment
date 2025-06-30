@@ -485,6 +485,35 @@
             #endregion
 
             #region Consider an Array of Integer values with size N, having values as in this Example
+            //Console.Write("Enter number of elements: ");
+            //int n = int.Parse(Console.ReadLine());
+
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write($"Enter element {i + 1}: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Dictionary<int, int> firstIndex = new Dictionary<int, int>();
+            //int maxDist = 0;
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    if (!firstIndex.ContainsKey(arr[i]))
+            //    {
+            //        firstIndex[arr[i]] = i;
+            //    }
+            //    else
+            //    {
+            //        int distance = i - firstIndex[arr[i]];
+            //        if (distance > maxDist)
+            //            maxDist = distance; 
+            //    }
+            //}
+
+            //Console.WriteLine("Max Distance = " + maxDist);
 
             #endregion
 
