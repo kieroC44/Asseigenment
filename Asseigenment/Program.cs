@@ -422,6 +422,31 @@
             #endregion
 
             #region Write a program in C# Sharp to find maximum and minimum element in an array
+            //Console.Write("Enter number of elements: ");
+            //int n = int.Parse(Console.ReadLine());
+
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write($"Enter element {i + 1}: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int max = arr[0];
+            //int min = arr[0];
+
+            //for (int i = 1; i < n; i++)
+            //{
+            //    if (arr[i] > max)
+            //        max = arr[i];
+
+            //    if (arr[i] < min)
+            //        min = arr[i];
+            //}
+
+            //Console.WriteLine("Max = " + max);
+            //Console.WriteLine("Min = " + min);
 
             #endregion
 
