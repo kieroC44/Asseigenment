@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Demo
 {
@@ -612,7 +613,79 @@ namespace Demo
 
             #endregion
 
+            #region 1D Array
 
+
+
+            #region Array advantages and disadvatanges
+
+
+            //Array arr = new Array();
+            //allocate 4 bytes in stack
+            //numbers = new int[4] { 1, 2, 3, 4 };
+            //numbers = new int[] { 1, 2, 3, 4 };
+            //int[] numbers = { 1, 2, 3, 4 };
+            //int[] numbers = [ 1, 2, 3, 4 ];
+
+            //int[] numbers = new int[3];
+            //Array. Fill(numbers, 5);
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[1]);
+            //Console.WriteLine(numbers[2]);
+
+            //Array arr = Array.CreateInstance(typeof(int), 5);
+
+            // arr.SetValue(10, 0);
+            // arr.SetValue(20, 1);
+            // arr.SetValue(30, 2);
+            // arr.SetValue(40, 3);
+            // arr.SetValue(50, 4);
+            // Console.WriteLine(arr.GetValue(0));
+
+            //object[] data = new object[3] { 1, "Mariam", true };
+            //foreach (var item in data)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //int[] Numbers = { 1, 2, 3, 4 };
+            //for(int i = 0; i < 4; i++)
+            //Console.WriteLine(Numbers[i]);
+
+
+            //int[] Numbers = new int[5];
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    Console.WriteLine($"Please enter the array element {i + 1}");
+            //    int.TryParse(Console.ReadLine(), out Numbers[i]);
+            //}
+            //Console.Clear();
+            //for (int i = 0; i < Numbers.Length; i++)
+            //       Console.WriteLine(Numbers[i]);
+
+
+
+
+
+
+            // new
+            //1] allocate required at heap [4 * 4 = 16 bytes]
+            //2] Inialize default value [o]
+            //3] Call user defined ctor if exist
+            //4] Assign reference in stack to instance in heap
+
+            //int[] Numbers = new int[5] { 1, 2, 3, 4, 5 } ;
+
+            //foreach (int number in Numbers)
+            //Console.WriteLine(number);
+
+            //char[] characters = new char[3];
+            //default char \e
+            //char m = default;
+            //Console.WriteLine(m);
+            //Console.WriteLine((int)m);
+
+
+            #endregion
 
 
 
