@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 using System.Text;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -684,14 +685,56 @@ namespace Demo
             //Console.WriteLine(m);
             //Console.WriteLine((int)m);
 
+            //Console.WriteLine(Numbers.Length);
+            //Console.WriteLine(Numbers.Rank); //D
 
             #endregion
 
 
 
+            #endregion
+
+            #region 2D Array
+            //int[,] marks = new int[2, 5] { { 100, 200, 300, 400, 500 }, { 10, 20, 30, 40, 50 } };
+
+            ////for(int i = 0; i < 2; i++) //rows
+            ////{
+
+            ///for (int j = 0; j < 5; j++)
+            //{
+            ////            Console.Write(marks[i, j] + " ");
+            ///            Console.WriteLine();
+            ///}
+
+            //Console.WriteLine(marks.Length);
+            //Console.WriteLine(marks.Rank);
+
+//            int[,] marks = new int[2, 5];
+//            for (int i = 0; i < 2; i++) 
+//            {
+//                Console.WriteLine($"Please enter student number {i + 1} info ");
+//                for (int j = 0; j < 5; j++)
+//                { 
+//            Console.WriteLine($"Please enter the grade for subject {j + 1}");
+//            int.TryParse(Console.ReadLine(), out marks[i, j]);
+//        }
+//    }
+//    Console.Clear();
+//            for (int i = 0; i< 2; i++)
+//        {
+//                Console.WriteLine($" Info for student number {i + 1} ");
+//            for (int j = 0; j< 5; j++)
+//        {
+//                Console.Write($"{marks[i, j]} ");
+//        }
+//            Console.WriteLine();
+
+//}
 
 
 
+
+            #endregion
 
         }
     }
