@@ -369,7 +369,14 @@ namespace Demo
             #endregion
 
 
-
+            #region For - Foreach
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    if (i == 3)
+            //        break;
+            //    Console.WriteLine(i);
+            //}
+            #endregion
 
 
 
@@ -383,6 +390,58 @@ namespace Demo
             #endregion
 
 
+
+            #region Looping statemtns [while - do while]
+            #region do while
+            //Let user enter an even number
+            //if value odd or it's not a number == > enter value again
+            //else == > print the even number
+            //int number;
+            //bool isParsed;
+            //Console.WriteLine("Please enter an even number");
+            //isParsed = int.TryParse(Console.ReadLine(), out number);
+            //Console.WriteLine(number);
+            //int number;
+            //bool isParsed;
+            //do
+
+            //Console.WriteLine("Please enter an even number");
+            //isParsed = int.TryParse(Console.ReadLine(), out number);
+            //} while (!isParsed | | number % 2 == 1);
+            ////False == > !false = true
+            ///True == > !true = false
+            //Console.WriteLine(number);
+            #endregion
+
+            #region While
+            //take a number from user and print
+            //a sequence of number from number entered to 10
+            //5 => 5,6,7,8,9,10
+            //2 => 2,3,4,5,6,7,8,9,10
+            //int number;
+            //bool isParsed;
+            //Console.WriteLine("Please enter a number <= 10");
+            //isParsed = int.TryParse(Console.ReadLine(), out number);
+
+            //Console.Clear();
+            //if (isParsed)
+            //{
+            //    while (number <= 10)
+
+            //        Console.WriteLine(number);
+            //    number++;
+
+            //}
+
+
+
+
+
+
+
+
+            #endregion
+            #endregion
 
 
 
