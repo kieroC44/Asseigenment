@@ -303,6 +303,31 @@
              - If the worker takes more than 5 hours, they are required to leave the company. 
                     To calculate the efficiency of a worker, the time taken for the task is obtained via user input from the keyboard.
              */
+            //Console.WriteLine("Enter the number of hours taken to complete the task:");
+            //int hours = int.Parse(Console.ReadLine());
+            //if (hours <= 3)
+            //    Console.WriteLine("Highly Efficient");
+            //else if (hours <= 4)
+            //    Console.WriteLine("Improve Speed");
+            //else if (hours <= 5)
+            //    Console.WriteLine("Training Needed");
+            //else
+            //    Console.WriteLine("Leave Company");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             #endregion
 
             #region Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n.
