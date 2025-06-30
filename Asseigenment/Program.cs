@@ -186,7 +186,17 @@
             #endregion
 
             #region Write a program to allow the user to enter a string and print the REVERSE of it
+            //Console.Write("Enter a string: ");
+            //string str = Console.ReadLine();
 
+            //string reversed = "";
+
+            //for (int i = str.Length - 1; i >= 0; i--)
+            //{
+            //    reversed += str[i];
+            //}
+
+            //Console.WriteLine("Reversed string: " + reversed);
             #endregion
 
             #region  Write a program to allow the user to enter int and print the REVERSED of it.
