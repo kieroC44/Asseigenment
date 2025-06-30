@@ -123,6 +123,16 @@
             #endregion
 
             #region Write a program that takes two integers then prints the power.
+            //Console.WriteLine("Enter a First Number:");
+            //int baseNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter a Second Number:");
+            //int power = int.Parse(Console.ReadLine());
+            //int result = 1;
+            //for (int i = 0; i < power; i++)
+            //{
+            //    result *= baseNum; 
+            //}
+            //Console.WriteLine($"How to calculate {baseNum}^{power} = " + result);
 
             #endregion
 
