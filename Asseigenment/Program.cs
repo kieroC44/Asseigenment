@@ -356,7 +356,32 @@
             #endregion
 
             #region Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+            //Console.Write("Enter size of first array: ");
+            //int n1 = int.Parse(Console.ReadLine());
+            //int[] arr1 = new int[n1];
 
+            //Console.WriteLine("Enter elements of first array:");
+            //for (int i = 0; i < n1; i++)
+            //{
+            //    Console.Write($"Element {i + 1}: ");
+            //    arr1[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Console.Write("Enter size of second array: ");
+            //int n2 = int.Parse(Console.ReadLine());
+            //int[] arr2 = new int[n2];
+
+            //Console.WriteLine("Enter elements of second array:");
+            //for (int i = 0; i < n2; i++)
+            //{
+            //    Console.Write($"Element {i + 1}: ");
+            //    arr2[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int[] merged = arr1.Concat(arr2).OrderBy(x => x).ToArray();
+
+            //Console.WriteLine("Merged Sorted Array:");
+            //Console.WriteLine(string.Join(" ", merged));
             #endregion
 
             #region Write a program in C# Sharp to count the frequency of each element of an array.
