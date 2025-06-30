@@ -20,19 +20,62 @@
             #endregion
 
             #region  Write a program that allows the user to insert an integer then print negative if it is negative number otherwise print positive.
-            Console.WriteLine("Please Enter a Number:");
-            int num = int.Parse(Console.ReadLine());
-            if (num > 0)
-            {
-                Console.WriteLine("positive");
-            }
-            else
-            {
-                Console.WriteLine("negative");
-            }
+            //Console.WriteLine("Please Enter a Number:");
+            //int num = int.Parse(Console.ReadLine());
+            //if (num > 0)
+            //{
+            //    Console.WriteLine("positive");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("negative");
+            //}
             #endregion
 
             #region Write a program that takes 3 integers from the user then prints the max element and the min element.
+
+
+
+            //Console.Write("Enter first number: ");
+            //int a = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter second number: ");
+            //int b = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter third number: ");
+            //int c = int.Parse(Console.ReadLine());
+
+
+            //int max = a;
+            //int min =  a;
+
+            //for (int i = 1; i < 3; i++)
+            //{
+            //    if (b > max )
+            //        max = b;
+            //    else if (c > max)
+            //        max = c;
+            //    if (b < min)    
+            //        min = b;
+            //    else if (c < min)           
+            //         min = c;
+            //}
+
+            //Console.WriteLine("Max element = " + max);
+            //Console.WriteLine("Min element = " + min);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             #endregion
 
