@@ -540,6 +540,19 @@
             #endregion
 
             #region  Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array
+            //int[,] arr1 = new int[2, 2];
+            //int[,] arr2 = new int[2, 2];
+            //for (int i = 0; i < 2; i++)
+            //    for (int j = 0; j < 2; j++)
+            //        arr1[i, j] = int.Parse(Console.ReadLine());
+            //Array.Copy(arr1, arr2, arr1.Length);
+
+            //for (int i = 0; i < 2; i++)
+            //{
+            //    for (int j = 0; j < 2; j++)
+            //        Console.Write(arr2[i, j] + " ");
+            //    Console.WriteLine();
+            //}
 
             #endregion
 
