@@ -161,6 +161,27 @@
             #endregion
 
             #region Write a program to create a Simple Calculator.
+            //Console.WriteLine("Enter first number:");
+            //double a = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter an operator (+, -, *, /):");
+            //char ch = char.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter second number:");
+            //double b = double.Parse(Console.ReadLine());
+            //double result = 0;
+            //switch (ch)
+            //{
+            //    case '+': result = a + b; break;
+            //    case '-': result = a - b; break;
+            //    case '*': result = a * b; break;
+            //    case '/':
+            //        if (b != 0)
+            //            result = a / b;
+            //        else
+            //            Console.WriteLine("Error: Cannot divide by zero!");
+            //        break;
+
+            //}
+            //Console.WriteLine("Result = " + result);
 
             #endregion
 
